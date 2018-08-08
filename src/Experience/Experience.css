@@ -1,4 +1,13 @@
-.tecnology{
-    display: inline-block;
+.tecnologyList{
+    display: grid;
     -webkit-padding-start: 0;
+    grid-template-columns:  repeat(5, 1fr);
+    grid-gap: 0.25rem;
+    max-width: 100%;
+}
+
+.tecnology{
+    box-shadow: 0 1px 5px grey;
+    margin: 7px;
+    text-align: center;
 }

@@ -1,0 +1,55 @@
+{
+    "name": "David H. Parramon",
+    "personalDescription": "I am a Front-End Web Developer with experience in software quality assurance & engineering. I have developed mobile applications for Android devices, with extensive focus on augmented realty and QR codes and have working knowledge of IOS programming", 
+    "experiences": [
+        {
+            "company": "Connexions Loyalty Solutions",
+            "website": "http://cxloyalty.com/default.aspx",
+            "startDate": "03/2017",
+            "endDate": "Current",
+            "description": "Worked as Front End Dev lead for styling, with focus on accessibility, styles architecture, consultance and semantics and Javascript developement",
+            "tools": [ "React", "Typescript", "CSS Modules", "Webpack", "SCSS", "Backbone", "Underscore", "Grunt", "Aria"]
+        },
+        {
+            "company": "Untoo",
+            "website": "",
+            "startDate": "02/2013",
+            "endDate": "03/2017",
+            "description": "Collaborations as Freelance. Front-end development & consultant, Layout creation, Code development, Cross-browser & mobile device compatibility assurance.",
+            "tools": [ "SASS", "Android", "Photoshop", "Illustrator", "After Effects", "3Dmax", "Vray"]
+        },
+        {
+            "company": "Grifols",
+            "website": "http://www.grifols.com/en/web/international/home",
+            "startDate": "10/2012",
+            "endDate": "12/2012",
+            "description": "Quality Assurance test developer, creating test cases telecomunication services. My task was infrastructures valoration, individual test creation, documentation, creation of walkthrough for future references.",
+            "tools": []
+        },
+        {
+            "company": "Schneider Electric",
+            "website": "https://www.schneider-electric.us/en/",
+            "startDate": "06/2011",
+            "endDate": "11/2011",
+            "description": "Full Stack Developer Server development and creation of a test-environment.",
+            "tools": ["OpenSuse", "Moodle", "PostgreSQL", "PHP", "Python", "Virtual Box", "Apache", "VLC",
+                "CSS"]
+        },
+        {
+            "company": "Roche",
+            "website": "https://www.roche.com/",
+            "startDate": "09/2010",
+            "endDate": "04/2011",
+            "description": "Quality Assurance Engineer at Roche Diagnostics Validation and testing in a low-error tolerance systems, documentation and error-reporting",
+            "tools": []
+        },
+        {
+            "company": "Ajuntament de Barcelona",
+            "website": "https://www.barcelona.cat/en/",
+            "startDate": "09/2008",
+            "endDate": "09/2010",
+            "description": "Front-End Web Developer, semantic, cross-browser front-end code, Layout creation and code development, Web maintenance (including VIP web and an important home page)",
+            "tools": [ "css", "Javascript", "Jquery", "PHP"]
+        }
+    ]
+}

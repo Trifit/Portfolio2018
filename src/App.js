@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Experience from './Experience/Experience';
+import appObj from './data.json';
 
 class App extends Component {
   render() {
@@ -10,10 +10,15 @@ class App extends Component {
         <header>
           <h1>David H. Parramon</h1>
         </header>
-        <p>
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-        <Experience />
+        {appObj.experiences.map(experience=> 
+          <Experience 
+            key={experience.company}
+            company={experience.company}
+            description={experience.description}
+            tools={experience.tools}
+          />
+        )}
+        
       </section>
     );
   }

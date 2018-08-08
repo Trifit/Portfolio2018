@@ -1,8 +1,13 @@
-.logo {
+:global(.logo) {
   height: 80px;
+}
+
+body{
+  max-width:1280px;
+  margin: 0 auto;
+  padding: 14px;
 }
 
 ul{
   list-style: none;
-  -webkit-padding-start: 0;
 }
