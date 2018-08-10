@@ -151,6 +151,23 @@ module.exports = {
               cacheDirectory: true,
             },
           },
+            // {
+            //     test: /\.svg$/,
+            //     exclude: /node_modules/,
+            //     loader: 'svg-react-loader'
+            // },
+          {
+            test: /\.svg$/,
+            use: [
+              {
+                loader: '@svgr/webpack',
+                options: {
+                  svgo: true,
+                  
+                },
+              },
+            ],
+          },
           // "postcss" loader applies autoprefixer to our CSS.
           // "css" loader resolves paths in CSS and adds assets as dependencies.
           // "style" loader turns CSS into JS modules that inject <style> tags.

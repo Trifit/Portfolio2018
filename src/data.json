@@ -1,6 +1,7 @@
 {
     "name": "David H. Parramon",
-    "personalDescription": "I am a Front-End Web Developer with experience in software quality assurance & engineering. I have developed mobile applications for Android devices, with extensive focus on augmented realty and QR codes and have working knowledge of IOS programming", 
+    "personalDescription00": "I am a Front-End Web Developer with experience in software quality assurance & engineering. I have developed mobile applications for Android devices, with extensive focus on augmented realty and QR codes and have working knowledge of IOS programming", 
+    "personalDescription01": "A Front-End Web developer and computer's nerd. All this meanwhile is rissing a family in the midwest and stays up to date with the latest front end trends.",
     "experiences": [
         {
             "company": "Connexions Loyalty Solutions",
@@ -50,6 +51,16 @@
             "endDate": "09/2010",
             "description": "Front-End Web Developer, semantic, cross-browser front-end code, Layout creation and code development, Web maintenance (including VIP web and an important home page)",
             "tools": [ "css", "Javascript", "Jquery", "PHP"]
+        }
+    ],
+    "projects": [
+        {
+            "name": "",
+            "client": "",
+            "description": "",
+            "images": "",
+            "links": ""
+
         }
     ]
 }

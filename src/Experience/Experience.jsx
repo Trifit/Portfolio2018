@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Tecnology from '../Tecnology/Tecnology';
-import ReactLogo from '../uploads/React.svg';
 import styles from './Experience.css';
 
 export default class Experience extends Component{
@@ -19,8 +18,8 @@ export default class Experience extends Component{
                         <li className={styles.tecnology}>
                             <Tecnology 
                                 key={tool} 
-                                logo={ReactLogo} 
-                                name={tool} />
+                                name={tool}
+                                logo={tool+'Logo'} />
                         </li>
                     )}
                 </ul>
