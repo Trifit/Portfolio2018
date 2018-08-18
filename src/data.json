@@ -9,7 +9,7 @@
             "startDate": "03/2017",
             "endDate": "Current",
             "description": "Worked as Front End Dev lead for styling, with focus on accessibility, styles architecture, consultance and semantics and Javascript developement",
-            "tools": [ "React", "Typescript", "CSS Modules", "Webpack", "SCSS", "Backbone", "Underscore", "Grunt", "Aria"]
+            "tools": [ "React", "Typescript", "Styled components", "CSS Modules", "Jest", "Webpack", "SCSS", "Backbone", "Grunt", "Accessibility"]
         },
         {
             "company": "Untoo",
@@ -55,11 +55,14 @@
     ],
     "projects": [
         {
-            "name": "",
-            "client": "",
-            "description": "",
-            "images": "",
-            "links": ""
+            "name": "Android QR app",
+            "client": "UPC - Universitat Politecnica de Catalunya (Catalonia Polytechnics University)",
+            "clientUrl": "http://www.upc.edu/?set_language=en",
+            "description": "Android app, created with the objective to make an extensive use of QR codes, databases and Android devices capabilities. Scanning a QR code by the side of a determinate classroom in the university, the phone is able to tell, what class is being told at that moment, what teacher is in it, and what comes next.",
+            "images": [ "upc_app.png" ],
+            "links": {
+                "Github": "https://github.com/Trifit/Aplicatiu_de_la_EETAC/"
+            }
 
         }
     ]
