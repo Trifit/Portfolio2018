@@ -18,18 +18,18 @@ export default class Experience extends Component{
     }
     render(){
         return (
-            <article>
+            <li>
                 <h3>{this.props.company}</h3>
                 <h4>{this.props.title}</h4>
                 <p>{this.props.description}</p>
                 <ul className={styles.tecnologyList}>
-                    {this.props.tools.map(tool =>
-                        <li className={styles.tecnology}>
-                        <Tecnology key={tool} name={tool} logo={this.logo(tool)} />
+                    {this.props.tools.map((tool, index) =>
+                        <li key={index} className={styles.tecnology}>
+                            <Tecnology key={index} name={tool} logo={this.logo(tool)} />
                         </li>
                     )}
                 </ul>
-            </article>
+            </li>
         )
     };
     logo(_tool){

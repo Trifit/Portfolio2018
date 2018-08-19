@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import styles from './App.css';
 import Experience from './Experience/Experience';
+import Project from './Project/Project';
+import styles from './App.css';
 import appObj from './data.json';
 
 class App extends Component {
@@ -9,19 +10,33 @@ class App extends Component {
       <div>
         <header>
           <h1>{appObj.name}</h1>
+          <h2>Front end Developer</h2>
           <p className={styles.description}>{appObj.personalDescription01}</p>
         </header>
-        <h2>Experience</h2>
-        {appObj.experiences.map(experience=> 
-          <Experience 
-            key={experience.company}
-            company={experience.company}
-            description={experience.description}
-            tools={experience.tools}
-          />
-        )}
-        <h2>Some of my work</h2>
-        <h2>Where to find me</h2>
+        <ul>
+          <li>
+            <h3>Experience</h3>
+            <ul>
+            {appObj.experiences.map((experience, index)=> 
+              <Experience 
+                key={index}
+                company={experience.company}
+                description={experience.description}
+                tools={experience.tools}
+              />
+            )}
+          </ul>
+        </li>
+
+        <li>
+          <h3>Some of my work</h3>
+          <Project />
+        </li>
+        
+        <li>
+          <h3>Where to find me</h3>
+        </li>
+        </ul>
       </div>
     );
   }

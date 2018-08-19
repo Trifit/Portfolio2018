@@ -1,0 +1,20 @@
+"jest": {
+    "preprocessorIgnorePatterns": [
+      "node_modules/enzyme"
+    ],
+    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+    "setupEnvScriptFile": "node_modules/react-native/jestSupport/env.js",
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "packager/react-packager/src/Activity/"
+    ],
+    "unmockedModulePathPatterns": [
+      "react",
+      "react-dom",
+      "react-native",
+      "react-addons-test-utils",
+      "promise",
+      "source-map",
+      "enzyme"
+    ]
+}

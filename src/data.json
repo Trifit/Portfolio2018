@@ -17,7 +17,7 @@
             "startDate": "02/2013",
             "endDate": "03/2017",
             "description": "Collaborations as Freelance. Front-end development & consultant, Layout creation, Code development, Cross-browser & mobile device compatibility assurance.",
-            "tools": [ "SASS", "Android", "Photoshop", "Illustrator", "After Effects", "3Dmax", "Vray"]
+            "tools": [ "SCSS", "Android", "Photoshop", "Illustrator", "After Effects", "3Dmax", "Vray"]
         },
         {
             "company": "Grifols",
@@ -60,10 +60,16 @@
             "clientUrl": "http://www.upc.edu/?set_language=en",
             "description": "Android app, created with the objective to make an extensive use of QR codes, databases and Android devices capabilities. Scanning a QR code by the side of a determinate classroom in the university, the phone is able to tell, what class is being told at that moment, what teacher is in it, and what comes next.",
             "images": [ "upc_app.png" ],
-            "links": {
+            "links": [{
                 "Github": "https://github.com/Trifit/Aplicatiu_de_la_EETAC/"
-            }
-
+            }]
+        },
+        {
+            "name": "Stop Neonicotonoids Animation",
+            "client": "PAN Europe",
+            "clientUrl": "http://www.pan-europe.info/",
+            "description": "Animation created, designed and developed for a general audience to show the effects of Neonicotinoids (a new kind of pesticide) in the environment. Software used: Adobe Illustrator, Adobe Photoshop and Adobe Afterefects.",
+            "videos": "https://www.youtube.com/embed/2ToYb-gEWK8"
         }
     ]
 }
