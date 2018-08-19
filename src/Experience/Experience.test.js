@@ -14,6 +14,7 @@ describe('The <Experience /> component', function() {
       description={appObj.experiences[0].description} 
       tools={appObj.experiences[0].tools}
       />);
+      
     it('has a <h3> with the company name', function() {
       expect(wrapper.find('h3').text()).toEqual(appObj.experiences[0].company);
     });
