@@ -14,14 +14,17 @@ import JsLogo from '../uploads/Javascript-logo.svg';
 export default class Experience extends Component{
     constructor(props){
         super(props);
-        this.state = "";
+        if(this.props.description) {
+            this.description = <p>{this.props.description.replace(/\n/g,"</p><p>")}</p>
+        };
     }
+    
     render(){
         return (
             <li>
-                <h3>{this.props.company}</h3>
-                <h4>{this.props.title}</h4>
-                <p>{this.props.description}</p>
+                <h4>{this.props.company}</h4>
+                <h5>{this.props.title}</h5>
+                {this.description}
                 <ul className={styles.tecnologyList}>
                     {this.props.tools.map((tool, index) =>
                         <li key={index} className={styles.tecnology}>

@@ -1,6 +1,6 @@
 {
     "name": "David H. Parramon",
-    "personalDescription00": "I am a Front-End Web Developer with experience in software quality assurance & engineering. I have developed mobile applications for Android devices, with extensive focus on augmented realty and QR codes and have working knowledge of IOS programming", 
+    "personalDescription00": "I am a Front-End Web Developer with experience in software quality assurance & engineering.\n I have developed mobile applications for Android devices, with extensive focus on augmented realty and QR codes and have working knowledge of IOS programming", 
     "personalDescription01": "A Front-End Web developer and computer's nerd. All this meanwhile is rissing a family in the midwest and stays up to date with the latest front end trends.",
     "experiences": [
         {
@@ -24,7 +24,7 @@
             "website": "http://www.grifols.com/en/web/international/home",
             "startDate": "10/2012",
             "endDate": "12/2012",
-            "description": "Quality Assurance test developer, creating test cases telecomunication services. My task was infrastructures valoration, individual test creation, documentation, creation of walkthrough for future references.",
+            "description": "Quality Assurance test developer, creating test cases telecomunication services.\n My task was infrastructures valoration, individual test creation, documentation, creation of walkthrough for future references.",
             "tools": []
         },
         {
@@ -58,7 +58,7 @@
             "name": "Android QR app",
             "client": "UPC - Universitat Politecnica de Catalunya (Catalonia Polytechnics University)",
             "clientUrl": "http://www.upc.edu/?set_language=en",
-            "description": "Android app, created with the objective to make an extensive use of QR codes, databases and Android devices capabilities. Scanning a QR code by the side of a determinate classroom in the university, the phone is able to tell, what class is being told at that moment, what teacher is in it, and what comes next.",
+            "description": "Android app, created with the objective to make an extensive use of QR codes, databases and Android devices capabilities.\n Scanning a QR code by the side of a determinate classroom in the university, the phone is able to tell, what class is being told at that moment, what teacher is in it, and what comes next.",
             "images": [ "upc_app.png" ],
             "links": [{
                 "Github": "https://github.com/Trifit/Aplicatiu_de_la_EETAC/"
@@ -68,7 +68,7 @@
             "name": "Stop Neonicotonoids Animation",
             "client": "PAN Europe",
             "clientUrl": "http://www.pan-europe.info/",
-            "description": "Animation created, designed and developed for a general audience to show the effects of Neonicotinoids (a new kind of pesticide) in the environment. Software used: Adobe Illustrator, Adobe Photoshop and Adobe Afterefects.",
+            "description": "Animation created, designed and developed for a general audience to show the effects of Neonicotinoids (a new kind of pesticide) in the environment.\n Software used: Adobe Illustrator, Adobe Photoshop and Adobe Afterefects.",
             "videos": "https://www.youtube.com/embed/2ToYb-gEWK8"
         }
     ]

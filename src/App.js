@@ -8,11 +8,11 @@ class App extends Component {
   render() {
     return (
       <div>
-        <header>
+        <section>
           <h1>{appObj.name}</h1>
           <h2>Front end Developer</h2>
           <p className={styles.description}>{appObj.personalDescription01}</p>
-        </header>
+        </section>
         <ul>
           <li>
             <h3>Experience</h3>
@@ -22,15 +22,23 @@ class App extends Component {
                 key={index}
                 company={experience.company}
                 description={experience.description}
-                tools={experience.tools}
-              />
+                tools={experience.tools}/>
             )}
           </ul>
         </li>
 
         <li>
           <h3>Some of my work</h3>
-          <Project />
+          <ul>
+          {appObj.projects.map((project, index)=>
+            <Project 
+              projectName={project.name} 
+              client={project.client} 
+              clientUrl={project.client} 
+              description={project.description}
+              key={index} />
+          )}
+          </ul>
         </li>
         
         <li>
