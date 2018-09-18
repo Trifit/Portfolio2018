@@ -31,12 +31,10 @@ class App extends Component {
           <h3>Some of my work</h3>
           <ul>
           {appObj.projects.map((project, index)=>
-            <Project 
-              projectName={project.name} 
-              client={project.client} 
-              clientUrl={project.client} 
-              description={project.description}
-              key={index} />
+            <Project
+              project={project} 
+              key={index}
+               />
           )}
           </ul>
         </li>
