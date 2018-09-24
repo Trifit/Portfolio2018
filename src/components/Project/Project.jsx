@@ -1,6 +1,7 @@
 import React from 'react';
 // import styles from './Project.css';
-import Test from '../uploads/projects/bcn_project.png';
+// import Test from '../uploads/projects/bcn_project.png';
+// import Image from '../uploads/projects/NAT_snapshot.jpg';
 
 export default class Project extends React.Component{
     render() {
@@ -23,7 +24,6 @@ export default class Project extends React.Component{
                 <ul>
                     {this.props.project.images && this.props.project.images.map((image, index)=>
                         <li key={index}>
-                        <Test/>
                             <img src={"../src/uploads/projects/" + image} alt={this.props.project.name + " image " + index}/>
                         </li>
                     )}

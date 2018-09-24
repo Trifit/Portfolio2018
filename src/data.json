@@ -131,5 +131,35 @@
                 "https://11-lvl3-pdl.vimeocdn.com/01/3242/2/66211034/164647193.mp4?expires=1536459369&token=05aa4b479f2d3c011bc2a"
             ]
         }
+    ],
+    "Contacts":[
+        {
+            "name": "Github",
+            "url": "https://github.com/Trifit"
+        },
+        {
+            "name": "Gmail",
+            "url": "mailto:davhern@gmail.com"
+        },
+        {
+            "name": "Linkedl",
+            "url": "https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile"
+        },
+        {
+            "name": "Stack Overflow",
+            "url": "http://stackoverflow.com/users/1012024/trifit"
+        },
+        {
+            "name": "Youtube",
+            "url": "https://www.youtube.com/user/trifit555/videos"
+        },
+        {
+            "name": "Vimeo",
+            "url": "https://vimeo.com/user7231150"
+        },
+        {
+            "name": "WordPress",
+            "url": "https://parramon.wordpress.com/"
+        }
     ]
 }

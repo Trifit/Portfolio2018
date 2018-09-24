@@ -1,2 +1,12 @@
+.main{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-gap: 5%;
+}
 
+.intro{
+    text-align: right;
+}
+.content{
 
+}
