@@ -13,7 +13,7 @@ const getClientEnvironment = require('./env');
 const paths = require('./paths');
 const svgo = require('./.svgo.yml');
 
-const publicPath = '/';
+const publicPath = 'http://localhost:3000/';
 const publicUrl = '';
 const env = getClientEnvironment(publicUrl);
 
@@ -65,9 +65,14 @@ module.exports = {
       {
         oneOf: [
           {
-
-            test: /\.(png|jpg|gif)$/i,
-            loader: 'file-loader',
+            test: /\.(png|jp(e*)g|svg)$/,  
+            use: [{
+                loader: 'url-loader',
+                options: { 
+                    limit: 8000, // Convert images < 8kb to base64 strings
+                    name: 'uploads/[hash]-[name].[ext]'
+                } 
+            }]
           },
           {
             test: /\.(js|jsx|mjs)$/,
