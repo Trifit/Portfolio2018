@@ -1,29 +1,26 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Tecnology from '../Tecnology/Tecnology';
 import styles from './Experience.css';
 
-export default class Experience extends Component{
-    constructor(props){
-        super(props);
-        if(this.props.experience.description) {
-            this.description = <p>{this.props.experience.description.replace("\\n","\n")}</p>
-        };
-    }
-    
-    render(){
-        return (
-            <li>
-                <h4>{this.props.experience.company}</h4>
-                <h5>{this.props.experience.title}</h5>
-                {this.description}
-                <ul className={styles.tecnologyList}>
-                    {this.props.experience.tools.map((tool, index) =>
-                        <li key={index} className={styles.tecnology}>
-                            <Tecnology key={index} name={tool} />
-                        </li>
-                    )}
-                </ul>
-            </li>
-        )
-    };
-} 
+export default (props) => {
+    let description = props.experience.description.replace("\\n","\n");
+
+    return (
+        <li className={styles.separator}>
+            <section className={styles.experience}>
+                <h4 className={styles.company}><a href={props.experience.website}>{props.experience.company}</a></h4>
+                <div>
+                    <p className={styles.description}>{description}</p>
+                    <h5>Tecnologies: </h5>
+                    <ul className={styles.tecnologyList}>
+                        {props.experience.tools.map((tool, index) =>
+                            <li key={index}>
+                                <Tecnology key={index} name={tool} />
+                            </li>
+                        )}
+                    </ul>
+                </div>
+            </section>
+        </li>
+    )
+}

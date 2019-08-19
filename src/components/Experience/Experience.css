@@ -1,3 +1,21 @@
+.experience{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 3%;
+}
+
+.company{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: right;
+    font-size: 1.25rem;
+    letter-spacing: -2px;
+    font-weight: 900;
+    font-family: arial;
+    align-items: flex-end;
+}
+
 .tecnologyList{
     display: grid;
     -webkit-padding-start: 0;
@@ -10,4 +28,10 @@
     box-shadow: 0 1px 5px grey;
     margin: 7px;
     text-align: center;
+}
+
+.separator:not(:last-child){
+    margin: 0 0 48px 0;
+    border-bottom: 1px solid currentColor;
+    padding: 0 0 48px 0;
 }

@@ -1,10 +1,11 @@
 {
     "name": "David H. Parramon",
+    "job": "Front End Developer",
     "personalDescription00": "I am a Front-End Web Developer with experience in software quality assurance & engineering.\\n I have developed mobile applications for Android devices, with extensive focus on augmented realty and QR codes and have working knowledge of IOS programming", 
-    "personalDescription01": "A Front-End Web developer and computer's nerd. All this meanwhile is rissing a family in the midwest and stays up to date with the latest front end trends.",
+    "personalDescription01": "A Front-End Web developer and computer's nerd. Depending on the day I'm a front end - Full stack or a Front end - Front end",
     "experiences": [
         {
-            "company": "Connexions Loyalty Solutions",
+            "company": "cxLoyalty",
             "website": "http://cxloyalty.com/default.aspx",
             "startDate": "03/2017",
             "endDate": "Current",
