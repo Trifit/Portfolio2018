@@ -1,9 +1,11 @@
 import React from 'react';
 import Tecnology from '../Tecnology/Tecnology';
 import styles from './Experience.css';
+import images from '../../images.js';
 
 export default (props) => {
-    let description = props.experience.description.replace("\\n","\n");
+    const description = props.experience.description.replace("\\n","\n");
+    console.log(images);
 
     return (
         <li className={styles.separator}>
@@ -18,6 +20,9 @@ export default (props) => {
                                 <Tecnology key={index} name={tool} />
                             </li>
                         )}
+                    </ul>
+                    <ul>
+                        {/* {images.map((image,index) => <img src={image.images[0].url} alt="" key={index}/>)} */}
                     </ul>
                 </div>
             </section>

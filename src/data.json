@@ -10,15 +10,17 @@
             "startDate": "03/2017",
             "endDate": "Current",
             "description": "Worked as Front End Dev lead for styling, with focus on accessibility, styles architecture, consultance and semantics and Javascript developement",
-            "tools": [ "React", "Typescript", "Styled components", "CSS Modules", "Jest", "Webpack", "SCSS", "Backbone", "Grunt", "Accessibility"]
+            "tools": [ "React", "Typescript", "Styled components", "CSS Modules", "Jest", "Webpack", "SCSS", "Backbone", "Grunt", "Accessibility"],
+            "images": ["./uploads/projects/orxe2/baseProduct/t5-www.cxtrvl.com_BaseResponsive_search.png"]
         },
         {
             "company": "Untoo",
-            "website": "",
+            "website": "http://www.untoo.com/home.html",
             "startDate": "02/2013",
             "endDate": "03/2017",
             "description": "Collaborations as Freelance. Front-end development & consultant, Layout creation, Code development, Cross-browser & mobile device compatibility assurance.",
-            "tools": [ "SCSS", "Android", "Photoshop", "Illustrator", "After Effects", "3Dmax", "Vray"]
+            "tools": [ "SCSS", "Android", "Photoshop", "Illustrator", "After Effects", "3Dmax", "Vray"],
+            "images": []
         },
         {
             "company": "Grifols",
@@ -26,7 +28,8 @@
             "startDate": "10/2012",
             "endDate": "12/2012",
             "description": "Quality Assurance test developer, creating test cases telecomunication services.\\n My task was infrastructures valoration, individual test creation, documentation, creation of walkthrough for future references.",
-            "tools": []
+            "tools": [],
+            "images": []
         },
         {
             "company": "Schneider Electric",
@@ -34,8 +37,8 @@
             "startDate": "06/2011",
             "endDate": "11/2011",
             "description": "Full Stack Developer Server development and creation of a test-environment.",
-            "tools": ["OpenSuse", "Moodle", "PostgreSQL", "PHP", "Python", "Virtual Box", "Apache", "VLC",
-                "CSS"]
+            "tools": ["OpenSuse", "Moodle", "PostgreSQL", "PHP", "Python", "Virtual Box", "Apache", "CSS"],
+            "images": []
         },
         {
             "company": "Roche",
@@ -43,7 +46,8 @@
             "startDate": "09/2010",
             "endDate": "04/2011",
             "description": "Quality Assurance Engineer at Roche Diagnostics Validation and testing in a low-error tolerance systems, documentation and error-reporting",
-            "tools": []
+            "tools": [],
+            "images": []
         },
         {
             "company": "Ajuntament de Barcelona",
@@ -51,7 +55,8 @@
             "startDate": "09/2008",
             "endDate": "09/2010",
             "description": "Front-End Web Developer, semantic, cross-browser front-end code, Layout creation and code development, Web maintenance (including VIP web and an important home page)",
-            "tools": [ "css", "Javascript", "Jquery", "PHP"]
+            "tools": [ "css", "Javascript", "Jquery", "PHP"],
+            "images": []
         }
     ],
     "projects": [
