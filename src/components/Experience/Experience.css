@@ -1,7 +1,10 @@
 .experience{
     display: grid;
-    grid-template-columns: 1fr 2fr;
     grid-gap: 3%;
+    min-width: 600px;
+}
+.experience p{
+    letter-spacing: 1px;
 }
 
 .company{
@@ -30,11 +33,11 @@
     text-align: center;
 }
 
-.separator:not(:last-child){
-    margin-bottom: 48px;
-    border-bottom: 1px solid currentColor;
-}
+
 .separator{
-    padding: 0 0 48px 0;
-    margin: auto;
+    background: black;
+    box-shadow: var(--pri-sh), var(--sec-sh), var(--ter-sh);
+    padding: 32px;
+    color: var(--main-pr);
+    border-radius: 50px;
 }

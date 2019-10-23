@@ -88,7 +88,18 @@ module.exports = {
               {
                 loader: '@svgr/webpack',
                 options: {
-                  svgo: true
+                  svgo: true,
+                  template: (
+                    { template },
+                    opts,
+                    { imports, componentName, props, jsx, exports }
+                  ) => template.ast`
+                    ${imports}
+                    const ${componentName} = (${props}) => {
+                      return ${jsx};
+                    };
+                    export default ${componentName};
+                  `,
                 },
               },
             ],

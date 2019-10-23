@@ -9,6 +9,10 @@
   --main-sc: #e73c7e;
   --comp-pr: #23a6d5;
   --comp-sc: #23d5ab;
+
+  --pri-sh: 0 8px 10px 1px rgba(0,0,0,0.24);
+  --sec-sh: 0 3px 14px 2px rgba(0,0,0,0.22);
+  --ter-sh: 0 5px 5px -3px rgba(0,0,0,0.30);
 }
 
 body {
@@ -46,13 +50,13 @@ h3{
   font-weight: 300;
   font-size: 3.375rem;
   letter-spacing: 23px;
-  text-align: right;
-  margin: 0 0 48px 0;
+  margin: 0 0 48px 0; /*-23px is to copensate for the right allignment and the big letter spacing, otherwise looks not alligned to the right */
 }
 
 p{
   font-size: 1rem;
   margin: 0 0 16px 0;
+  letter-spacing: 1.5;
 }
 
 ul{
@@ -68,14 +72,13 @@ article{
 a{
  color: var(--comp-pr);
  text-decoration: none;
- border: 2px solid currentColor;
- padding: 7px;
  text-align: center;
- width: 100%;
- max-width: 200px;
+ box-sizing: border-box;
+ border-bottom: 2px solid transparent;
+ letter-spacing: 2px;
 }
-
 a:hover, a:focus{
+  border-bottom-color: currentColor;
   color: var(--comp-sc);
 }
 

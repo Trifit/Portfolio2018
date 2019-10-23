@@ -9,8 +9,9 @@
             "website": "http://cxloyalty.com/default.aspx",
             "startDate": "03/2017",
             "endDate": "Current",
-            "description": "Worked as Front End Dev lead for styling, with focus on accessibility, styles architecture, consultance and semantics and Javascript developement",
-            "tools": [ "React", "Typescript", "Styled components", "CSS Modules", "Jest", "Webpack", "SCSS", "Backbone", "Grunt", "Accessibility"],
+            "description": "At cxLoyalty, I started as part of the Front End Team working on developing and implementing solutions for the main loyalty integration product, focusing on the look and feel (styling and js code), during my period here I switched to different clients loyalty integrations and groups, such as Chase, Citi or US Bank, following an agile approach.  \\n Other focusses: Accessibility, build optimitzation and enhancement, progressive enhancement, general site performance, user analitics and client integration.",  
+            "tools": [ "SCSS", "CSS", "Styled components", "CSS Modules", "Backbone", "Underscore", "React", "Typescript", "Visual C#", "Jest", "Webpack", "Grunt", "Gulp", "TFS"],
+            "logo": "../../uploads/logos/cxLoyalty-logo",
             "images": ["./uploads/projects/orxe2/baseProduct/t5-www.cxtrvl.com_BaseResponsive_search.png"]
         },
         {
@@ -20,6 +21,7 @@
             "endDate": "03/2017",
             "description": "Collaborations as Freelance. Front-end development & consultant, Layout creation, Code development, Cross-browser & mobile device compatibility assurance.",
             "tools": [ "SCSS", "Android", "Photoshop", "Illustrator", "After Effects", "3Dmax", "Vray"],
+            "logo": "",
             "images": []
         },
         {
@@ -29,6 +31,7 @@
             "endDate": "12/2012",
             "description": "Quality Assurance test developer, creating test cases telecomunication services.\\n My task was infrastructures valoration, individual test creation, documentation, creation of walkthrough for future references.",
             "tools": [],
+            "logo": "",
             "images": []
         },
         {
@@ -38,6 +41,7 @@
             "endDate": "11/2011",
             "description": "Full Stack Developer Server development and creation of a test-environment.",
             "tools": ["OpenSuse", "Moodle", "PostgreSQL", "PHP", "Python", "Virtual Box", "Apache", "CSS"],
+            "logo": "",
             "images": []
         },
         {
@@ -47,6 +51,7 @@
             "endDate": "04/2011",
             "description": "Quality Assurance Engineer at Roche Diagnostics Validation and testing in a low-error tolerance systems, documentation and error-reporting",
             "tools": [],
+            "logo": "",
             "images": []
         },
         {
@@ -56,6 +61,7 @@
             "endDate": "09/2010",
             "description": "Front-End Web Developer, semantic, cross-browser front-end code, Layout creation and code development, Web maintenance (including VIP web and an important home page)",
             "tools": [ "css", "Javascript", "Jquery", "PHP"],
+            "logo": "",
             "images": []
         }
     ],
@@ -144,15 +150,15 @@
             "url": "https://github.com/Trifit"
         },
         {
-            "name": "Gmail",
+            "name": "email",
             "url": "mailto:davhern@gmail.com"
         },
         {
-            "name": "Linkedl",
+            "name": "linkedln",
             "url": "https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile"
         },
         {
-            "name": "Stack Overflow",
+            "name": "stackOvrflw",
             "url": "http://stackoverflow.com/users/1012024/trifit"
         },
         {
