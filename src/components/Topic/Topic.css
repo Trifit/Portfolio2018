@@ -24,3 +24,16 @@
     width: 100%;
     justify-content: space-between;
 }
+
+
+.experience{
+    position: relative;
+}
+
+.arrowIcon{
+    font-size: 72px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    color: red;
+}

@@ -85,3 +85,11 @@ a:hover, a:focus{
 :global(.logo) {
   height: 80px;
 }
+
+.arrowHead:global{
+  fill:transparent;
+  stroke:var(--main-bold);
+  stroke-width:8;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+}

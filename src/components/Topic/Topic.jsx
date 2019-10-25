@@ -2,20 +2,21 @@ import React from 'react';
 import Experience from '../Experience/Experience';
 import Project from '../Project/Project';
 import styles from './Topic.css';
-import Envelope from '../../uploads/email.js';
 
 export default (props) => {
+    const carruselLeft = (e) =>{
+       document.querySelector('.js-carrousel').setAttribute("style", "right:100vw;");
+    }
     const renderTopic = (topic, obj)=> {
         switch(topic){
             case 'experience':
                 return (
                 <li className={styles.experience}>
                     <h3>Experience</h3>
-                    <ul className={styles.experienceList}>
-                        {obj.experiences.map((experience, index)=> 
-                            index%2 === 1? <Experience experience={experience} key={index}/> : <Experience experience={experience}  className={styles.alternate} key={index}/>
-                        )}
+                    <ul className={`${styles.experienceList} js-carrousel`}>
+                        {obj.experiences.map((experience, index)=> <Experience experience={experience} key={index}/>)}
                     </ul>
+                    <i className={styles.arrowIcon} onClick={e=>carruselLeft(e)}>➧</i>
                 </li>);
             case 'project':
                 return (
@@ -30,7 +31,7 @@ export default (props) => {
                 return (
                 <li className={styles.alternate}>
                     <h3>Where to find me</h3>
-                    <Envelope />
+                    {/* <Envelope /> */}
                     <ul className={styles.contactInfo}>
                     {obj.Contacts.map((contact, index)=> 
                         <li key={index}>
