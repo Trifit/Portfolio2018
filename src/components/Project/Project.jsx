@@ -1,10 +1,7 @@
 import React from 'react';
 
 export default class Project extends React.Component{
-    // constructor(props) {
-        // super(props);
-        // this.importAll = this.importAll.bind(this);
-    // }
+
     
     renderImages(){
         if(this.props.project.images){
